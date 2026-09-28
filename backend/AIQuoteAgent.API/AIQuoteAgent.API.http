@@ -1,0 +1,6 @@
+@AIQuoteAgent.API_HostAddress = http://localhost:5233
+
+GET {{AIQuoteAgent.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

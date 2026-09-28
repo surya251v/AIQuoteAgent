@@ -1,0 +1,25 @@
+# .NET
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# SQLite
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
+# Logs
+*.log
